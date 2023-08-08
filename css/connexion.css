@@ -1,0 +1,141 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: #777FFE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.principale{
+    background-color:white;
+    border-radius: 30px;
+    height: 520px;
+    width: 500px;
+}
+.logoEtTitre img{
+    height: 30px;
+    width: 30px;
+}
+
+.logoEtTitre p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.logoEtTitre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 5px;
+}
+
+.inputComponents input{
+    height: 40px;
+    width: 350px;
+    border: 2px solid #777FFE;
+    border-radius: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.inputComponents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputComponents button{
+  background-color: #777FFE;
+  border: 2px solid black;
+  height: 40px;
+  width: 350px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.inputComponents a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-self: end;
+    position: relative;
+    right: -100px;
+    top: -10px;
+  }
+
+.reseauSociaux hr{
+    height: 2px;
+    background-color: black;
+    width: 230px;
+}
+
+.reseauSociaux p{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+.reseaux .res img{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-self: center;
+}
+.reseaux .res p{
+    display: flex;
+    font-size: large;
+    font-weight: bold;
+}
+
+.reseaux .res{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    margin: 0px 30px;
+    border: 3px solid #777FFE;
+    height: 80px;
+    width: 80px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.reseauSociaux{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inscription a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+}
+
+.inscription{
+    border: 3px solid #777FFE;
+    border-radius: 30px;
+    height: 20px;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto;
+}
